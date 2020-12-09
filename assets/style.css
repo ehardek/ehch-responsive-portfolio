@@ -11,3 +11,8 @@ img {
 .contact-form {
     margin: 10px;
 }
+
+#textBox , #contactBox {
+    background-color: slategray;
+    box-shadow:10px 10px 5px grey;
+}
