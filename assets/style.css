@@ -6,13 +6,24 @@ img {
 #catPhotoAlign {
     display: block;
     margin: 0px auto;
+    background-color: darkcyan;
+    box-shadow:10px 10px 5px grey;
 }
 
 .contact-form {
     margin: 10px;
 }
 
-#textBox , #contactBox {
-    background-color: slategray;
+#textBox {
+    background-color: rgb(84, 101, 118);
     box-shadow:10px 10px 5px grey;
+}
+#contactBox {
+    background-color: rgb(84, 101, 118);
+    box-shadow:10px 10px 5px grey;
+}
+
+.navbar {
+    background-color: tomato; 
+    color: slategray;
 }
