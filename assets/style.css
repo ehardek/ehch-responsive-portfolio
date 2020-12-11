@@ -6,7 +6,7 @@ img {
 #catPhotoAlign {
     display: block;
     margin: 0px auto;
-    background-color: darkcyan;
+    background-color: rgba(157, 166, 174, 0.769);
     box-shadow:10px 10px 5px grey;
 }
 
@@ -14,8 +14,8 @@ img {
     margin: 10px;
 }
 
-#textBox {
-    background-color: rgb(84, 101, 118);
+#textBox , #contactBox  {
+    background-color: rgba(157, 166, 174, 0.769);
     box-shadow:10px 10px 5px grey;
 }
 #contactBox {
@@ -23,7 +23,11 @@ img {
     box-shadow:10px 10px 5px grey;
 }
 
-.navbar {
+.navbar , .footer {
     background-color: tomato; 
     color: slategray;
+}
+
+#linkCard {
+    position: sticky;
 }
